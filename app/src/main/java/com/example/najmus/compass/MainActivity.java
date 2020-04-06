@@ -1,7 +1,4 @@
 package com.example.najmus.compass;
-/*====================================
-    Author : NAJMUS SEEMAB
-======================================*/
 
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -49,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
-
+/*
         final  float alpha= 0.97f;
         synchronized (this){
             if (sensorEvent.sensor.getType ()==Sensor.TYPE_ACCELEROMETER){
@@ -63,8 +60,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 mGeomagnetic[1]= alpha*mGeomagnetic[1]+(1-alpha)*sensorEvent.values[1];
                 mGeomagnetic[2]= alpha*mGeomagnetic[2]+(1-alpha)*sensorEvent.values[2];
             }
-            float R[] =new  float[9];
-            float I[] =new  float[9];
+            float R[] = new float[9];
+            float I[] = new float[9];
             boolean success = SensorManager.getRotationMatrix ( R,I,mGravity,mGeomagnetic );
             if (success) {
                 float orientation[] = new float[3];
@@ -82,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 imageView.startAnimation ( anim );
             }
         }
-
+*/
     }
 
     @Override

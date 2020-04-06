@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Compass.iml" filepath="$PROJECT_DIR$/Compass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kompass.iml" filepath="$PROJECT_DIR$/Kompass.iml" group="Kompass" />
+      <module fileurl="file://$PROJECT_DIR$/app/Kompass-app.iml" filepath="$PROJECT_DIR$/app/Kompass-app.iml" group="Kompass/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
